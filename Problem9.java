@@ -25,10 +25,10 @@ public class Problem9 {
 
 	public static boolean isPythagTriple(int a, int b, int c) {
 
-		if( a < b && < c) {
+		if( (a < b) && (b < c) {
 			if( (a * a) + (b * b) == (c * c) ) {
+				return true;
 			}
-			return true;
 		}
 		return false;
 	}
