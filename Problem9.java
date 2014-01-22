@@ -7,7 +7,7 @@ public class Problem9 {
 		for( int c = 334; c < 1000; c++) {
 			for( int a = 1; a < c; a++) {
 					int b = 1000 - c - a;
-					if( isPythagTriple) {
+					if( isPythagTriple(a,b,c)) {
 						System.out.println(a + " , " b + " , " + c);
 					}
 				}
@@ -23,7 +23,7 @@ public class Problem9 {
 		System.out.println("Time is: " + totalTime);
 	}
 
-	public static boolean isPythagTriple(int x) {
+	public static boolean isPythagTriple(int a, int b, int c) {
 		if( a < b < c) {
 			if( (a * a) || (b * b) == (c * c) ) {
 			}
