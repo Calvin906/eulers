@@ -9,6 +9,7 @@ public class Problem9 {
 			int b = 1000 - c - a;
 				if( isPythagTriple(a,b,c)) {
 						System.out.println(a + " , " + b + " , " + c);
+						System.out.println( a * b * c);
 				}
 			}
 		}
@@ -25,7 +26,7 @@ public class Problem9 {
 
 	public static boolean isPythagTriple(int a, int b, int c) {
 
-		if( (a < b) && (b < c) {
+		if( (a < b) && (b < c) ){
 			if( (a * a) + (b * b) == (c * c) ) {
 				return true;
 			}
