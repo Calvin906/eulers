@@ -4,6 +4,14 @@ public class Problem9 {
 		//Start time
 		long startTime = System.currentTimeMillis();
 
+		for( int c = 334; c < 1000; c++) {
+			for( int a = 1; a < c; a++) {
+					int b = 1000 - c - a;
+					if( isPythagTriple)
+					System.out.println(a + " , " b + " , " + c);
+					}
+				}
+			}
 
 
 		//End time 
@@ -17,15 +25,12 @@ public class Problem9 {
 	}
 
 	public static boolean isPythagTriple(int x) {
-
-		for( int c = 334; c < 1000; c++) {
-			for( int a = 1; a < c; a++) {
-					int b = 1000 - c - a;
-				if( (a * a) || (b * b) == (c * c)) {
-					System.out.println(a + " , " b + " , " + c);
-					}
-				}
+		if( a < b < c) {
+			if( (a * a) || (b * b) == (c * c) ) {
 			}
+			return true
+		}
+		return false;
 
 	}
 
