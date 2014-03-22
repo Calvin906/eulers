@@ -36,7 +36,7 @@ public class Problem8 {
 			}
 			if( product > max) {
 				max = product;
-d
+
 			}
 		}
 
